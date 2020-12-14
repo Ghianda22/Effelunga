@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="sistemato e aggiunto alcune tabelle" />
+    <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="db backup per ricaricare il database">
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3148.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3150.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3151.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3153.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3154.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3156.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3157.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3158.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3159.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3160.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3162.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3164.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3165.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3166.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3167.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3168.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3169.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3170.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3171.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3172.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3173.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/toc.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +58,20 @@
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.tessera_cliente.sql">
     <configuration name="catalogoofferte.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="075a2d67-10f4-4086-9b54-b80ab314026a/database/effelunga/schema/public/table/catalogoofferte.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
+    <configuration name="tessera_cliente.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="4f33a4a6-e211-4789-91d1-5ab87017c409/database/effelunga/schema/public/table/tessera_cliente.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.tessera_cliente.sql" />
         <item itemvalue="Database Script.catalogoofferte.sql" />
       </list>
     </recent_temporary>
@@ -59,6 +90,7 @@
       <workItem from="1607683077078" duration="8815000" />
       <workItem from="1607704704804" duration="10115000" />
       <workItem from="1607937896894" duration="4813000" />
+      <workItem from="1607959975678" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="schema">
       <created>1607719231668</created>
@@ -81,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607959685837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="db backup per ricaricare il database">
+      <created>1607960265696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607960265696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +142,7 @@
     <MESSAGE value="schema" />
     <MESSAGE value="backup del db da caricare su PostgreSQL" />
     <MESSAGE value="sistemato e aggiunto alcune tabelle" />
-    <option name="LAST_COMMIT_MESSAGE" value="sistemato e aggiunto alcune tabelle" />
+    <MESSAGE value="db backup per ricaricare il database" />
+    <option name="LAST_COMMIT_MESSAGE" value="db backup per ricaricare il database" />
   </component>
 </project>

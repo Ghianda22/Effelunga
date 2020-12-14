@@ -789,7 +789,7 @@ false Zulu
     <database id="2" parent="1" name="effelunga">
       <ObjectId>16765</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>717</IntrospectionStateNumber>
+      <IntrospectionStateNumber>724</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16766|16768|1
 sequence|table|16777|16779|1
@@ -872,7 +872,7 @@ UC/10
 </Acl>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>718</IntrospectionStateNumber>
+      <IntrospectionStateNumber>725</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="18" parent="2" name="plpgsql">
@@ -1111,7 +1111,7 @@ UC/10
     <table id="56" parent="17" name="tessera_cliente">
       <ObjectId>16906</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>666</StateNumber>
+      <StateNumber>723</StateNumber>
     </table>
     <column id="57" parent="36" name="id_catalogo">
       <Position>1</Position>
@@ -2499,7 +2499,14 @@ nome_reparto</RefColNames>
       <StateNumber>665</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="232" parent="56" name="tessera_cliente_pkey">
+    <column id="232" parent="56" name="password">
+      <Position>12</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>723</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="233" parent="56" name="tessera_cliente_pkey">
       <ObjectId>16913</ObjectId>
       <StateNumber>665</StateNumber>
       <ColNames>id_tessera</ColNames>
@@ -2509,7 +2516,7 @@ nome_reparto</RefColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="233" parent="56" name="tessera_cliente_pkey">
+    <key id="234" parent="56" name="tessera_cliente_pkey">
       <ObjectId>16914</ObjectId>
       <StateNumber>665</StateNumber>
       <ColNames>id_tessera</ColNames>
