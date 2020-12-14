@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="backup del db da caricare su PostgreSQL">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga.f4L1qA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga.f4L1qA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga.f4L1qA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga.f4L1qA/schema/valentina.cg2ctw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga_prova.WJT_LQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga_prova.WJT_LQ/schema/gestionale_effelunga.0fAiZg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga_prova.WJT_LQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/075a2d67-10f4-4086-9b54-b80ab314026a/storage_v2/_src_/database/effelunga_prova.WJT_LQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" afterDir="false" />
-    </list>
+    <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="sistemato e aggiunto alcune tabelle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +58,7 @@
       <workItem from="1607593661742" duration="4985000" />
       <workItem from="1607683077078" duration="8815000" />
       <workItem from="1607704704804" duration="10115000" />
-      <workItem from="1607937896894" duration="4740000" />
+      <workItem from="1607937896894" duration="4813000" />
     </task>
     <task id="LOCAL-00001" summary="schema">
       <created>1607719231668</created>
@@ -89,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607720034133</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sistemato e aggiunto alcune tabelle">
+      <created>1607959685837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607959685837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="schema" />
     <MESSAGE value="backup del db da caricare su PostgreSQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup del db da caricare su PostgreSQL" />
+    <MESSAGE value="sistemato e aggiunto alcune tabelle" />
+    <option name="LAST_COMMIT_MESSAGE" value="sistemato e aggiunto alcune tabelle" />
   </component>
 </project>
