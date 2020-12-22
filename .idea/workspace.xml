@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="db backup per ricaricare il database">
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3148.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3150.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3151.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3153.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3154.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3156.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3157.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3158.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3159.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3160.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3162.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3164.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3165.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3166.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3167.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3168.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3169.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3170.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3171.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3172.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/3173.dat.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_backup/effelunga_localhost-2020_12_14_16_35_43-dump.sql/toc.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" afterDir="false" />
     </list>
@@ -39,12 +19,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lKegrwg1KJP5QwH82nD0MNFhgV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="redshift&#10;postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -90,7 +73,9 @@
       <workItem from="1607683077078" duration="8815000" />
       <workItem from="1607704704804" duration="10115000" />
       <workItem from="1607937896894" duration="4813000" />
-      <workItem from="1607959975678" duration="1314000" />
+      <workItem from="1607959975678" duration="1960000" />
+      <workItem from="1608127433150" duration="4484000" />
+      <workItem from="1608649094031" duration="10014000" />
     </task>
     <task id="LOCAL-00001" summary="schema">
       <created>1607719231668</created>
@@ -120,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607960265696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="db backup per ricaricare il database">
+      <created>1607961323754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607961323754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +131,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="schema" />
     <MESSAGE value="backup del db da caricare su PostgreSQL" />
     <MESSAGE value="sistemato e aggiunto alcune tabelle" />
