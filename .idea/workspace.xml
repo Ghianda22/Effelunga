@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="db backup per ricaricare il database">
-      <change afterPath="$PROJECT_DIR$/crud/clienti.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/createCliente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud/nuovoCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/IMG-20210126-WA0040.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Modello_Relazione_+_Vincoli.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Tentativo_disperatissimo.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/progetto.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/project-documentation.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/col_names.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/email_tel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/name_surname.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/psw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/createDipendente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/fornitoreC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/fornitoreR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/fornitoreUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/regaloC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/regaloR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/regaloUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/tessera_clienteC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/tessera_clienteR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/tessera_clienteUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/deletePhp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/filterHtml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/filterPhp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/modifyPhp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/tableHtml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/tablePhp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/acquisti.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/fornitoreForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/regaloForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/tessera_clienteForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoFornitore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoRegalo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smistamento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/effelunga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/effelunga.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/clienti.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/createCliente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/nuovoCliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/nuovoCliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preparativi/Modello_Relazione_+_Vincoli.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preparativi/progetto.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preparativi/project-documentation.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema_11-12-2020.PNG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +69,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Xampp" />
   <component name="ProjectId" id="1lKegrwg1KJP5QwH82nD0MNFhgV" />
@@ -37,32 +94,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../xampp/php/php.exe" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="ics" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb" />
     </key>
-  </component>
-  <component name="RunManager" selected="Database Script.tessera_cliente.sql">
-    <configuration name="catalogoofferte.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="075a2d67-10f4-4086-9b54-b80ab314026a/database/effelunga/schema/public/table/catalogoofferte.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <configuration name="tessera_cliente.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="4f33a4a6-e211-4789-91d1-5ab87017c409/database/effelunga/schema/public/table/tessera_cliente.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Database Script.tessera_cliente.sql" />
-        <item itemvalue="Database Script.catalogoofferte.sql" />
-      </list>
-    </recent_temporary>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\pages\forms" />
+      <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\modules\view" />
+      <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\modules" />
+      <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\templates" />
+      <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\crud" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +131,35 @@
       <workItem from="1609249058755" duration="6931000" />
       <workItem from="1609256289150" duration="374000" />
       <workItem from="1609257353021" duration="3926000" />
-      <workItem from="1609769400952" duration="7922000" />
+      <workItem from="1609769400952" duration="8180000" />
+      <workItem from="1609942366189" duration="1410000" />
+      <workItem from="1609945765011" duration="1794000" />
+      <workItem from="1609948354020" duration="217000" />
+      <workItem from="1610354893856" duration="620000" />
+      <workItem from="1610357624019" duration="608000" />
+      <workItem from="1610358269650" duration="23064000" />
+      <workItem from="1611675745538" duration="2960000" />
+      <workItem from="1611683253446" duration="137000" />
+      <workItem from="1611767062118" duration="5188000" />
+      <workItem from="1611828651241" duration="6105000" />
+      <workItem from="1611914757039" duration="17763000" />
+      <workItem from="1611953851231" duration="2833000" />
+      <workItem from="1612018791204" duration="13996000" />
+      <workItem from="1612087552359" duration="17124000" />
+      <workItem from="1612167383199" duration="25945000" />
+      <workItem from="1612288544752" duration="7145000" />
+      <workItem from="1612359181193" duration="22485000" />
+      <workItem from="1612428857351" duration="27564000" />
+      <workItem from="1612467612372" duration="453000" />
+      <workItem from="1612517050435" duration="21303000" />
+      <workItem from="1612640919604" duration="30000" />
+      <workItem from="1612708102076" duration="17414000" />
+      <workItem from="1612782919701" duration="4812000" />
+      <workItem from="1612949795338" duration="8313000" />
+      <workItem from="1613039558172" duration="7813000" />
+      <workItem from="1613143787255" duration="7511000" />
+      <workItem from="1613207862570" duration="15624000" />
+      <workItem from="1613305752876" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="schema">
       <created>1607719231668</created>
@@ -128,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608659476747</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fine create per tessera clienti&#10;backup ultimo aggiornamento del db">
+      <created>1609778355988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609778355988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +235,8 @@
     <MESSAGE value="sistemato e aggiunto alcune tabelle" />
     <MESSAGE value="db backup per ricaricare il database" />
     <MESSAGE value="modifiche al db con tabelle e un delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifiche al db con tabelle e un delete" />
+    <MESSAGE value="Fine create per tessera clienti&#10;backup ultimo aggiornamento del db" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fine create per tessera clienti&#10;backup ultimo aggiornamento del db" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
