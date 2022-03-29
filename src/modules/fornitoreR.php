@@ -1,3 +1,4 @@
+<h1><a href="../../index.php">Effelunga</a></h1>
 <?php
     //valori iniziali per la query
     /* fields = i campi che mi interessano

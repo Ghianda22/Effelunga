@@ -9,7 +9,5 @@
     <p class="err"> <?php echo $errors['disponibilita']; ?> </p>
 </div>
 <div>
-    <textarea name="descrizione" cols="100" rows="5" maxlength="600" placeholder="Descrizione del premio">
-        <?php echo htmlspecialchars($descrizione)?>
-    </textarea>
+    <textarea name="descrizione" cols="100" rows="5" maxlength="600" placeholder="Descrizione del premio"><?php echo htmlspecialchars($descrizione)?></textarea>
 </div>

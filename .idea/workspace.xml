@@ -4,60 +4,118 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="db backup per ricaricare il database">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planning/IMG-20210126-WA0040.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planning/Modello_Relazione_+_Vincoli.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planning/Tentativo_disperatissimo.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planning/progetto.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planning/project-documentation.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/col_names.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/email_tel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/name_surname.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/controls_forms/psw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/createDipendente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/fornitoreC.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/fornitoreR.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/fornitoreUD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/regaloC.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/regaloR.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/regaloUD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/tessera_clienteC.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/tessera_clienteR.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/tessera_clienteUD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/deletePhp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/filterHtml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/filterPhp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/modifyPhp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/tableHtml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/view_universal/tablePhp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/acquisti.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forms/fornitoreForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forms/regaloForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/forms/tessera_clienteForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/nuovoFornitore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/nuovoRegalo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smistamento.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a8edfb2b-1193-4e8e-aad2-591fcdb6d78f" name="Default Changelist" comment="roba">
+      <change afterPath="$PROJECT_DIR$/db_backup/data-ESAME.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/schema-ESAME.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_backup/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Documentazione_progetto_Effelunga.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER_-Effelunga-modifiche_evidenziate.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER_-Effelunga-modifiche_evidenziatejpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER_-Effelunga.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER_-Effelunga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER__ristrutturato-Effelunga-modifiche_evidenziate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER__ristrutturato-Effelunga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER_ristrutturato-Effelunga-modifiche_evidenziate.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME-Schema_ER_ristrutturato-Effelunga.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/ESAME_Documentazione_progetto_Effelunga.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Schema_ER_-_Effelunga-Pagina-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Schema_ER_-_Effelunga.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Schema_ER_Ristrutturato_-_Effelunga-Pagina-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/Schema_ER_Ristrutturato_-_Effelunga.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/query.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planning/~$AME_Documentazione_progetto_Effelunga.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogoC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogoR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogoUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogo_offerteC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogo_offerteR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogo_offerteUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogo_regaliC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogo_regaliR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/catalogo_regaliUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/composizione_prodottoC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/composizione_prodottoR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/composizione_prodottoUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/fornituraC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/fornituraR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/fornituraUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/loginDipendente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/loginResponsabile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/promozioniC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/promozioniR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/promozioniUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/regali_ritiratiC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/regali_ritiratiR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/regali_ritiratiUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/areaDipendenti.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/esame_pagina.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/catalogoForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/catalogo_offerteForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/catalogo_regaliForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/composizione_prodottoForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/fornituraForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/promozioniForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forms/regali_ritiratiForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoCatalogo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoCatalogo_offerte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoCatalogo_regali.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoComposizione_prodotto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoFornitura.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoPromozioni.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/nuovoRegali_ritirati.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/query1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/query1a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/query2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/query3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4f33a4a6-e211-4789-91d1-5ab87017c409/storage_v2/_src_/database/effelunga.f4L1qA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/effelunga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/effelunga.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/clienti.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/createCliente.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/nuovoCliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/nuovoCliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparativi/Modello_Relazione_+_Vincoli.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparativi/Tentativo_disperatissimo.drawio" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparativi/progetto.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparativi/project-documentation.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema_11-12-2020.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3163.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3165.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3166.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3168.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3169.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3171.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3172.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3173.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3174.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3175.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3177.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3179.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3180.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3181.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3182.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3183.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3184.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3185.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3186.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3187.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3188.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3189.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/3190.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_backup/effelunga_localhost-2021_01_04_17_36_43-dump.sql/toc.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning/IMG-20210126-WA0040.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning/Modello_Relazione_+_Vincoli.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning/Tentativo_disperatissimo.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning/progetto.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning/project-documentation.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/createDipendente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/fornitoreR.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/fornitoreR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/regaloC.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/regaloC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/regaloR.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/regaloR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/regaloUD.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/regaloUD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/tessera_clienteC.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/tessera_clienteC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/tessera_clienteR.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/tessera_clienteR.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/view_universal/modifyPhp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/view_universal/modifyPhp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/view_universal/tableHtml.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/view_universal/tableHtml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/acquisti.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forms/regaloForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forms/regaloForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/nuovoCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/nuovoCliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/nuovoRegalo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/nuovoRegalo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smistamento.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +162,11 @@
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\effelunga\src\modules" />
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\pages\forms" />
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\modules\view" />
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\modules" />
       <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\templates" />
-      <recent name="C:\Users\valel\Documents\Universita\SecondoAnno\SecondoSemestre\BasiDiDatieWeb\effelunga\src\crud" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -159,7 +217,12 @@
       <workItem from="1613039558172" duration="7813000" />
       <workItem from="1613143787255" duration="7511000" />
       <workItem from="1613207862570" duration="15624000" />
-      <workItem from="1613305752876" duration="958000" />
+      <workItem from="1613305752876" duration="36341000" />
+      <workItem from="1613410446752" duration="231000" />
+      <workItem from="1613420683564" duration="7422000" />
+      <workItem from="1613467339657" duration="23336000" />
+      <workItem from="1613513124601" duration="39000" />
+      <workItem from="1613554733288" duration="3880000" />
     </task>
     <task id="LOCAL-00001" summary="schema">
       <created>1607719231668</created>
@@ -210,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609778355988</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="roba">
+      <created>1613306735952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613306735952</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +306,8 @@
     <MESSAGE value="db backup per ricaricare il database" />
     <MESSAGE value="modifiche al db con tabelle e un delete" />
     <MESSAGE value="Fine create per tessera clienti&#10;backup ultimo aggiornamento del db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fine create per tessera clienti&#10;backup ultimo aggiornamento del db" />
+    <MESSAGE value="roba" />
+    <option name="LAST_COMMIT_MESSAGE" value="roba" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

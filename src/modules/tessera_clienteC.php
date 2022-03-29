@@ -48,6 +48,7 @@
                 //tolgo il valore in fondo, punti
                 array_pop($params);
                 array_pop($col_name);
+                array_shift($col_name);
                 //lista di coppie "chiave = valore"
                 $coupled_val = "";
                 for ($i = 0; $i < count($params); $i++) { //per ogni valore crea chiave = $1/$2/$3...

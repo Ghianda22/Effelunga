@@ -1,4 +1,7 @@
-<?php require (__DIR__."/tablePhp.php"); ?>
+<?php
+require (__DIR__."/tablePhp.php");
+include __DIR__."/../../templates/head.php";
+?>
 
 <table class="table table-sm table-striped table-hover table-bordered border-secondary table-responsive align-middle">
     <thead class="border-2">

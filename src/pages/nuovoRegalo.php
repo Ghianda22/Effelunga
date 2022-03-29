@@ -6,6 +6,7 @@ require "../templates/head.php";
 </head>
 <body>
 <div class="container">
+    <h1><a href="../../index.php">Effelunga</a></h1>
     <h1>CREA UN NUOVO REGALO</h1>
     <form action="./nuovoRegalo.php" method="POST">
 

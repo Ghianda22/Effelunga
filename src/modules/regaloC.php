@@ -60,8 +60,9 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
             //se non c'è nuovoCliente -> arrivo da modifyPHP
         }elseif ($_POST['submit'] === "Modifica") { //se ho cliccato sul pulsante modifica creo la query
-            $id_tessera = $_SESSION['key_val'];
-            $cond = "$key = '${$key}'";
+            $id_regalo = $_SESSION['key_val'];
+            $cond = "$key = ${$key}";
+            array_shift($col_name);
             //lista di coppie "chiave = valore"
             $coupled_val = "";
             for ($i = 0; $i < count($params); $i++) { //per ogni valore crea chiave = $1/$2/$3...

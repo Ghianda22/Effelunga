@@ -1,0 +1,26 @@
+SELECT *
+FROM dipendente
+WHERE esperienza = 'alta' AND cf IN (
+SELECT cf_senior
+FROM affiancamento
+WHERE cf_senior NOT IN (
+SELECT cf_senior
+FROM affiancamento
+WHERE stato = 'in corso'
+))
+
+
+SELECT *
+FROM dipendente
+WHERE esperienza = 'media' AND cf IN (
+SELECT cf_junior
+FROM assegnazione
+WHERE id_obiettivo = 3 AND  NOT IN (
+SELECT cf_senior
+FROM affiancamento
+WHERE stato = 'in corso'
+))
+
+SELECT cf_dipendente
+FROM assegnazione
+WHERE id_obiettivo = 3 AND stato = 'non raggiunto' AND COUNT(id_obiettivo

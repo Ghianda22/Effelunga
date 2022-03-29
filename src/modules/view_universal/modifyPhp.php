@@ -7,13 +7,17 @@ if(isset($_SESSION['data'])) {
     $tab = $data['tab'];
     $data = $data['row'];
 
-    $_SESSION['key_val'] = $data[$_SESSION['key']];
+    if(isset($_SESSION['key'])){
+        $_SESSION['key_val'] = $data[$_SESSION['key']];
+        unset($_SESSION['key']);
+    }
 
-    foreach ($data as $value) {
-        $key = array_search($value, $data);
-        $$key = $value;
+    $keys = array_keys($data);
+    foreach ($keys as $key) {
+        $$key = $data[$key];
         $errors[$key] = "";
     }
+
     $errors['double'] = "";
     $_SESSION['tab'] = $tab;
 
@@ -28,16 +32,14 @@ require "../../templates/head.php";
 ?>
 
 <div class="container mt-3">
-
-<form action="./modifyPhp.php" method="POST">
-    <?php
-        require "../../pages/forms/$tab"."Form.php";
-        require "../$tab"."C.php";
-    ?>
-    <input type="submit" name="submit" value="Modifica">
-    <input type="submit" name="submit" value="Annulla">
-</form>
-
-
+    <h1><a href="../../../index.php">Effelunga</a></h1>
+    <form action="./modifyPhp.php" method="POST">
+        <?php
+            require "../../pages/forms/$tab"."Form.php";
+            require "../$tab"."C.php";
+        ?>
+        <input type="submit" name="submit" value="Modifica">
+        <input type="submit" name="submit" value="Annulla">
+    </form>
 </div>
 

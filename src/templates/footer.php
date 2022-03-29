@@ -1,4 +1,4 @@
-<footer>
+<footer class="container">
     <p> Created by:</p>
         <ul>
             <li>Elisa Puopolo</li>
